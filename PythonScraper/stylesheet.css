@@ -1,0 +1,124 @@
+
+.container {
+	  position: relative;
+	  width: 50%;
+}
+
+/* Make the image responsive */
+.containar img {
+	width: 100%;
+	height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.btn {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+}
+/*for mobiles*/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+#button1{
+	position: absolute;
+	top: 61.0701%; 
+	left: 54.2159%;
+}
+#button2{
+	position: absolute;
+	top: 80.2275%; 
+	left: 49.0488%;
+}
+#button3{
+	position: absolute;
+	top: 25.8194%; 
+	left: 74.8971%;
+}
+#button4{
+	position: absolute;
+	top: 20.678%; 
+	left: 32.8278%;
+}
+#button5{
+	position: absolute;
+	top: 20.678%; 
+	left: 32.8278%;
+}
+#button6{
+	position: absolute;
+	top: 17.0308%; 
+	left: 52.9358%;
+}
+}
+
+/*for tablets*/
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+#button1{
+	position: absolute;
+	top: 61.0701%; 
+	left: 54.2159%;
+}
+#button2{
+	position: absolute;
+	top: 82.2275%; 
+	left: 80.0488%;
+}
+#button3{
+	position: absolute;
+	top: 25.8194%; 
+	left: 105.8971%;
+	/*background-color: black;*/
+}
+#button4{
+	position: absolute;
+	top: 20.678%; 
+	left: 32.8278%;
+}
+#button5{
+	position: absolute;
+	top: 20.678%; 
+	left: 52.8278%;
+}
+#button6{
+	position: absolute;
+	top: 17.0308%; 
+	left: 64.9358%;
+}
+}
+/*for desktop*/
+@media only screen and (min-width: 1320px){
+#button1{
+	position: absolute;
+	top: 61.0701%; 
+	left: 54.2159%;
+}
+#button2{
+	position: absolute;
+	top: 80.2275%; 
+	left: 52.0488%;
+}
+#button3{
+	position: absolute;
+	top: 25.8194%; 
+	left: 74.8971%;
+}
+#button4{
+	position: absolute;
+	top: 16.13368%; 
+	left: 6.2263%;
+}
+#button5{
+	position: absolute;
+	top: 20.678%; 
+	left: 34.8278%;
+}
+#button6{
+	position: absolute;
+	top: 17.0308%; 
+	left: 45.9358%;
+}
